@@ -7,6 +7,11 @@
 写学习笔记，推送远端报错，想起关注的大神有 bug 仓库，我也建立一个 bug 仓库吧。
 
 ```bash
+nvm list
+nvm use 10.16.2
+gitbook --version
+cd bug-repository
+
 git init # 初始化 git
 gitbook init # 初始化 gitbook
 git add . # 暂存
