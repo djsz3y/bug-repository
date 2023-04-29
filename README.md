@@ -1,4 +1,4 @@
-# bug-repository
+# bug 仓库
 
 - [Introduction](README.md)
 
@@ -20,3 +20,11 @@ gitbook serve # 启动 gitbook
 ## `提交github`
 
 - [`github推送报错信息`](提交github/github推送报错信息.md)
+
+## 友情链接
+
+- [读书视频学习笔记](https://github.com/djsz3y/learning-notes)
+
+- [爪哇学习笔记](https://github.com/djsz3y/zhaowa-study-notes)
+
+- [bug 仓库](https://github.com/djsz3y/bug-repository)
