@@ -16,6 +16,7 @@ fatal: unable to access 'https://github.com/djsz3y/bug-repository.git/': XXX（�
   3. Failed to connect to github.com port 443 after 21030 ms: Timed out
   4. Failed to connect to github.com port 443 after 21029 ms: Timed out
   5. Failed to connect to github.com port 443 after 21024 ms: Timed out
+  6. Failed to connect to github.com port 443 after 21020 ms: Timed out
 
 ## 解决方案
 
