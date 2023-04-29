@@ -13,10 +13,6 @@ fatal: unable to access 'https://github.com/djsz3y/bug-repository.git/': XXX（�
 - 报错信息：
   1. OpenSSL SSL_read: Connection was reset, errno 10054
   2. Failed to connect to github.com port 443 after 21154 ms: Timed out
-  3. Failed to connect to github.com port 443 after 21030 ms: Timed out
-  4. Failed to connect to github.com port 443 after 21029 ms: Timed out
-  5. Failed to connect to github.com port 443 after 21024 ms: Timed out
-  6. Failed to connect to github.com port 443 after 21020 ms: Timed out
 
 ## 解决方案
 
@@ -33,11 +29,13 @@ git remote add origin https://github.com/djsz3y/bug-repository.git
 # 解除SSL认证
 git config --global http.sslVerify "false"
 # 刷新 DNS 解析缓存
-#（第一次推送另一个仓库这一步完成就push成功了）
+#（第一次推送另一个仓库这一步完成就推送成功了）
 ipconfig /flushdns
 # 文件过大，超过上限
 #（本仓库推送到这一步才成功）
 git config http.postBuffer 5242880003
+# 再次推送
+git push -u origin master
 ```
 
 ## 参考链接
